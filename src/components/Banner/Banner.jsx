@@ -50,7 +50,7 @@ const Banner = () => {
             whileInView={"show"}
             viewport={{ once: false, amount: 0.7 }}
             className="cv mt-8 ">
-            <div className="btn-download text-base sm:text-2xl capitalize"><a href="https://drive.google.com/file/d/1eb4HnTvZQF2CSkxSOsbLlXh0W0RsxwCJ/view" target='blank'>Download CV</a></div>
+            <div className="btn-download text-base sm:text-2xl capitalize"><a href="https://drive.google.com/file/d/1eb4HnTvZQF2CSkxSOsbLlXh0W0RsxwCJ/view" target='_blank' rel="noopener noreferrer">Download CV</a></div>
             </motion.div>
             
             <motion.div
@@ -70,7 +70,7 @@ const Banner = () => {
         initial="hidden"
         whileInView={"show"}
         viewport={{ once: false, amount: 0.7 }}
-        className='flex-1 max-w-[320px] lg:max-w-[482px]'><img className='max-w-[100%]' src={Image}/></motion.div>
+        className='flex-1 max-w-[320px] lg:max-w-[482px]'><img className='max-w-[100%]' src={Image}  alt="Icon"/></motion.div>
     </div>
   </section>;
 };

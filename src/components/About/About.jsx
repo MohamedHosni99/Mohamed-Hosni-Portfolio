@@ -38,9 +38,9 @@ const About = () => {
           </p>
           <div className="flex gap-x-8 items-center mt-5">
           <a className='btn-contact  px-5 py-2 text-sm sm:px-7 sm:py-2.7 sm:text-base '  href='#contact'>Contact Me</a>
-              <a href="#" className="text-gradient text-lg">
+              <button  className="text-gradient text-lg">
                 My Portfolio
-              </a>
+              </button>
             </div>
         </div>
       </motion.div>

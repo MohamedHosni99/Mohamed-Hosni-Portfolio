@@ -1,5 +1,5 @@
 module.exports = {
-  content: ['./src/**/**/*.{js,jsx,html}'],
+  content: ['./index.html', './src/**/*.{js,jsx}'],
   theme: {
     fontFamily: {
       primary: 'Orbitron',

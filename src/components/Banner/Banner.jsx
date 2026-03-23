@@ -9,7 +9,7 @@ import {TypeAnimation} from 'react-type-animation';
 //import motion 
 import{motion} from 'framer-motion';
 //variant
-import {fadeIn} from '../../../src/variants';
+import {fadeIn} from '../../variants';
 
 
 const Banner = () => {
@@ -59,9 +59,9 @@ const Banner = () => {
             whileInView={"show"}
             viewport={{ once: false, amount: 0.7 }}
             className="social flex items-center justify-center mt-5 text-[1.5rem] mx-auto">
-              <a href='https://www.linkedin.com/in/mohamed-hosni99/' target='blank'><FaLinkedin/></a>
-              <a href='https://github.com/MohamedHosni99' target='blank'><FaGithub/></a>
-              <a href='https://www.facebook.com/profile.php?id=100017985150125' target='blank'><FaFacebook/></a>
+              <a href='https://www.linkedin.com/in/mohamed-hosni99/' target='_blank' rel='noopener noreferrer' aria-label='LinkedIn profile'><FaLinkedin/></a>
+              <a href='https://github.com/MohamedHosni99' target='_blank' rel='noopener noreferrer' aria-label='GitHub profile'><FaGithub/></a>
+              <a href='https://www.facebook.com/profile.php?id=100017985150125' target='_blank' rel='noopener noreferrer' aria-label='Facebook profile'><FaFacebook/></a>
             </motion.div>
         </motion.div>
       </div>
@@ -70,7 +70,7 @@ const Banner = () => {
         initial="hidden"
         whileInView={"show"}
         viewport={{ once: false, amount: 0.7 }}
-        className='flex-1 max-w-[320px] lg:max-w-[482px]'><img className='max-w-[100%]' src={Image}  alt="Icon"/></motion.div>
+        className='flex-1 max-w-[320px] lg:max-w-[482px]'><img className='max-w-[100%]' src={Image} alt="Portrait of Mohamed Hosni" loading="eager" decoding="async"/></motion.div>
     </div>
   </section>;
 };

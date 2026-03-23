@@ -2,7 +2,7 @@ import React from 'react';
 //import motion 
 import{motion} from 'framer-motion';
 //variant
-import {fadeIn} from '../../../src/variants';
+import {fadeIn} from '../../variants';
 // import Lottie from 'react-lottie';
 import animationData from './developer.json';
 import LottiePlayer from 'react-lottie-player';
@@ -31,7 +31,7 @@ const About = () => {
       viewport={{once: false, amount: 0.3}}
       className='text-container flex-1 mb-8'>
         <div>
-          <h1 className='main-title h3'>About Me</h1>
+          <h2 className='main-title h3'>About Me</h2>
           <p className='text-lg mt-5 text-slate-300 max-w-[95%] capitalize'>
           Hello! I'm Mohamed Hosni, a passionate web developer with a keen eye for detail and a love for creating intuitive user experiences. With a background in graphic design and a strong foundation in HTML, CSS,JavaScript,and React 
           I specialize in crafting visually appealing and functional websites that leave a lasting impression, I have worked on various projects and have a strong passion for creating interactive and user-friendly interfaces.

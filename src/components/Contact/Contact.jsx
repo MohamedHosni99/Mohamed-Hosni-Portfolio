@@ -30,7 +30,7 @@ const Contact = () => {
 
   return (
     <section className="py-8 lg:py-24" id="contact">
-      <motion.h1
+      <motion.h2
         variants={fadeIn('up', 0.3)}
         initial="hidden"
         whileInView="show"
@@ -38,7 +38,7 @@ const Contact = () => {
         className="h2 main-title"
       >
         Contact Me
-      </motion.h1>
+      </motion.h2>
       
       <div className="contact-container py-20 flex flex-col items-center justify-center">
         <motion.div

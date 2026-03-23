@@ -9,7 +9,7 @@ import { FaGithub, FaLink } from 'react-icons/fa';
 const Projects = () => {
   const [selected, setSelected] = useState("ALL");
   const [data, setData] = useState(AllPortfolio);
-  const categories = ["ALL", "HTML&CSS", "HTML&CSS&JS", "HTML&SASS&JS", "BootStrap", "Tailwindcss", "Vue.js", "React.js", "Next.js"];
+  const categories = ["ALL", "HTML&CSS", "HTML&CSS&JS", "HTML&SASS&JS", "BootStrap",  "Vue.js", "React.js", "Next.js"];
 
   useEffect(() => {
     if (selected === "ALL") {
@@ -21,12 +21,12 @@ const Projects = () => {
 
   return (
     <section className='portfolio py-8 lg:py-24  mb-8' id='portfolio'>
-      <motion.h1
+      <motion.h2
         variants={fadeIn('up', 0.3)}
         initial='hidden'
         whileInView={'show'}
         viewport={{ once: false, amount: 0.3 }}
-        className='h2 main-title'>Portfolio</motion.h1>
+        className='h2 main-title'>Portfolio</motion.h2>
 
       <motion.ul
         variants={fadeIn('left', 0.3)}
@@ -56,6 +56,8 @@ const Projects = () => {
             <img
               src={project.img}
               alt={project.title}
+              loading="lazy"
+              decoding="async"
             />
             <div className="overlay">
               <h3 className='text-center mt-2 text-black-500 font-bold mb-4'>{project.title}</h3>

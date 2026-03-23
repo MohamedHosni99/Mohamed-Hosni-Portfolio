@@ -1,22 +1,23 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, lazy, Suspense } from 'react';
 // components
 import Banner from './components/Banner/Banner';
 import Header from './components/Header/Header';
 import Nav from './components/Navbar/Nav';
-import About from './components/About/About';
-import Contact from './components/Contact/Contact';
-import Skills from './components/Skills/Skills';
-import Portfolio from './components/Portfolio/Portfolio';
 import Loader from './components/Loader/Loader';
+
+const About = lazy(() => import('./components/About/About'));
+const Skills = lazy(() => import('./components/Skills/Skills'));
+const Portfolio = lazy(() => import('./components/Portfolio/Portfolio'));
+const Contact = lazy(() => import('./components/Contact/Contact'));
 
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    // Simulating a delay to showcase the loader
+    // Keep loader brief to avoid harming first-contentful paint.
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 4000); // Adjust the delay as needed
+    }, 1200);
 
     return () => clearTimeout(timer);
   }, []);
@@ -30,10 +31,12 @@ const App = () => {
           <Header />
           <Banner />
           <Nav />
-          <About />
-          <Skills />
-          <Portfolio />
-          <Contact />
+          <Suspense fallback={<div className="text-center py-8 text-slate-300">Loading sections...</div>}>
+            <About />
+            <Skills />
+            <Portfolio />
+            <Contact />
+          </Suspense>
         </>
       )}
     </div>

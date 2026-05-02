@@ -50,7 +50,7 @@ const Banner = () => {
             whileInView={"show"}
             viewport={{ once: false, amount: 0.7 }}
             className="cv mt-8 ">
-            <div className="btn-download text-base sm:text-2xl capitalize"><a href="https://drive.google.com/file/d/1eb4HnTvZQF2CSkxSOsbLlXh0W0RsxwCJ/view" target='_blank' rel="noopener noreferrer">Download CV</a></div>
+            <div className="btn-download text-base sm:text-2xl capitalize"><a href="https://drive.google.com/file/d/1oy9zQIcdE7n7tVqsuAA4c8eEmBO4ieC6/view?usp=drive_link" target='_blank' rel="noopener noreferrer">Download CV</a></div>
             </motion.div>
             
             <motion.div

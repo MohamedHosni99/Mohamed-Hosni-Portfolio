@@ -8,8 +8,8 @@ import portfolio_7 from './assets/portfolio_7.png';
 import portfolio_8 from './assets/portfolio_8.png';
 import portfolio_9 from './assets/portfolio_9.png';
 import portfolio_10 from './assets/portfolio_10.png';
-import portfolio_11 from './assets/portfolio_11.png';
-import portfolio_12 from './assets/portfolio_12.png';
+
+
 
 import react from './assets/React .png';
 import Redux from './assets/Redux.png';
@@ -21,7 +21,6 @@ import CSS from './assets/css.png';
 import Sass from './assets/Sass.png';
 import Vs_Code from './assets/VS.png';
 import Next from './assets/Nextjs.png';
-import Vue from './assets/VueJs.png';
 import Mui from './assets/MUI.png';
 import Figma from './assets/Figma.png';
 import Js from './assets/JS.png';
@@ -95,41 +94,24 @@ export const AllPortfolio = [
             git_link:"https://github.com/MohamedHosni99/Travel-Project-HTML-SASS-JS-",
             Category:"HTML&SASS&JS"
         },
-       
         {
             id: 9,
-            title: "Weather-App",
-            img:portfolio_9,
-            link:"https://weather-app-ivory-omega-92.vercel.app/",
-            git_link:"https://github.com/MohamedHosni99/Weather-App-Vue-js-",
-            Category:"Vue.js"
-        },
-        {
-            id: 10,
             title: "Fitness-App",
-            img:portfolio_10,
+            img:portfolio_9,
             link:"https://fitness-app-phi-ten.vercel.app/",
             git_link:"https://github.com/MohamedHosni99/Fitness-App",
             Category:"React.js"
         },
         
         {
-            id: 11,
+            id: 10,
             title: "Youtube-Clone",
-            img:portfolio_11,
+            img:portfolio_10,
             link:"https://youtube-clone-beta-azure.vercel.app/",
             git_link:"https://github.com/MohamedHosni99/Youtube-Clone",
             Category:"React.js"
         },
 
-        {
-            id: 12,
-            title: "MetaVerse",
-            img:portfolio_12,
-            link:"https://metaverse-alpha-lake.vercel.app/",
-            git_link:"https://github.com/MohamedHosni99/Metaverse",
-            Category:"Next.js"
-        },
         
 
     
@@ -151,7 +133,6 @@ export const skillsData = [
     { name: 'React', image:  react},
     { name: 'Redux', image: Redux },
     { name: 'Next', image: Next },
-    { name: 'Vue', image: Vue },
     { name: 'Figma', image: Figma },
     { name: 'GitHub', image: Git_Hub },
     { name: 'VS Code', image: Vs_Code },

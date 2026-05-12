@@ -8,6 +8,8 @@ import portfolio_7 from './assets/portfolio_7.png';
 import portfolio_8 from './assets/portfolio_8.png';
 import portfolio_9 from './assets/portfolio_9.png';
 import portfolio_10 from './assets/portfolio_10.png';
+import portfolio_11 from './assets/portfolio_11.png';
+import portfolio_12 from './assets/portfolio_12.png';
 
 
 
@@ -25,6 +27,10 @@ import Mui from './assets/MUI.png';
 import Figma from './assets/Figma.png';
 import Js from './assets/JS.png';
 import Ts from './assets/TS.png';
+import Git from './assets/Git.png';
+import Node from './assets/nodejs.png';
+import Express from './assets/expressjs.png';
+import MongoDB from './assets/mongodb.jpg';
 
 
 
@@ -111,6 +117,22 @@ export const AllPortfolio = [
             git_link:"https://github.com/MohamedHosni99/Youtube-Clone",
             Category:"React.js"
         },
+         {
+            id: 11,
+            title: "VolteShop Website",
+            img:portfolio_11,
+            link:"https://volt-shop-e-commerce.vercel.app/",
+            git_link:"https://github.com/MohamedHosni99/VoltShop-E-Commerce-",
+            Category:"React.js"
+        },
+         {
+            id: 12,
+            title: "Mirgnix Company",
+            img:portfolio_12,
+            link:"https://mirginix-freelancing.vercel.app/",
+            git_link:"https://github.com/MohamedHosni99/mirginix-freelancing",
+            Category:"React.js"
+        },
 
         
 
@@ -136,7 +158,10 @@ export const skillsData = [
     { name: 'Figma', image: Figma },
     { name: 'GitHub', image: Git_Hub },
     { name: 'VS Code', image: Vs_Code },
-    { name: 'TypeScript', image: Ts },
+    { name: 'Git', image: Git },
+    { name: 'Node', image: Node },
+    { name: 'Express', image: Express },
+    { name: 'MongoDB', image: MongoDB },
 ];
 
 

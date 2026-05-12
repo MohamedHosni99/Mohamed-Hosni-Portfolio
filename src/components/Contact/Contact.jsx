@@ -100,6 +100,7 @@ const Contact = () => {
                   type="text"
                   id="name"
                   name="user_name"
+                  placeholder='Your name'
                   required
                 />
 
@@ -109,6 +110,7 @@ const Contact = () => {
                   type="email"
                   id="email"
                   name="user_email"
+                  placeholder='your@email.com'
                   required
                 />
               </div>
@@ -121,6 +123,7 @@ const Contact = () => {
                   id="textarea"
                   rows="10"
                   cols="50"
+                  placeholder='Your message...'
                   required
                 ></textarea>
               </div>

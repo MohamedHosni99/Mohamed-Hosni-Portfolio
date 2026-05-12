@@ -8,8 +8,8 @@ import portfolio_7 from './assets/portfolio_7.png';
 import portfolio_8 from './assets/portfolio_8.png';
 import portfolio_9 from './assets/portfolio_9.png';
 import portfolio_10 from './assets/portfolio_10.png';
-import portfolio_11 from './assets/portfolio_11.png';
-import portfolio_12 from './assets/portfolio_12.png';
+import portfolio_11 from './assets/portfolio_11.PNG';
+import portfolio_12 from './assets/portfolio_12.PNG';    
 
 
 
